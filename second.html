@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вычисление теплоты по закону Джоуля-Ленца</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Вычисление теплоты по закону Джоуля-Ленца (Q = I^2*R*t)</h2>
+        <label for="current">Сила тока (I, А):</label>
+        <input type="number" id="current">
+
+        <label for="resistance">Сопротивление (R, Ом):</label>
+        <input type="number" id="resistance">
+
+        <label for="time">Время (t, сек):</label>
+        <input type="number" id="time">
+
+        <button onclick="calculateHeat()">Вычислить</button>
+
+        <a href="main2.html" class="button">Назад</a>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="code2.js"></script>
+</body>
+</html>
